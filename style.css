@@ -1,27 +1,50 @@
 body {
     font-family: 'Roboto Slab', serif;
     margin: 0;
+    
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     color: rgb(56, 56, 3);
+    margin: 15px;
+    padding: 10px;
 }
 .link-button {
   background-image: linear-gradient(rgb(124, 84, 10), tomato);
   color: white;
-  padding: 10px 14px;
+  padding: 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 10px;
-  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+      }
+
+  #link-button-margin {
+      margin-left: 20px;
+  }
+  #small-para-margin {
+      margin: 20px;
   }
 
-  .div1 {
-      padding: 10px;
+  #link-button-margin-2 {
+      margin-left: 22px;
+      margin-bottom: 10px;
+  }
+
+  #margin-all {
+      margin: 15px;
+      width: 100%;
+  }
+
+  .div-class {
+      margin-top: 50px;
+      margin-bottom: 10px;
   }
 
   .flex-container {
@@ -29,18 +52,20 @@ h1 {
 }
 
 .box-one {
-  width: 50%;
-  padding: 10px;
-  border-left: 2px solid rgba(104, 102, 107, 0.986);
-  margin: 0;
+  
+  width: 150%;
+  border-left: 5px solid rgb(73, 20, 20);
+  float: left;
+  margin: 15px;
+  padding: 15px;
 }
 
 .para-one {
     text-align: justify;
-    box-shadow: 10px 10px 8px rgb(235, 221, 221);
-    padding: 10px;
-    margin-top: 15px;
+    padding: 15px;
+    margin: 15px;
     color: rgb(75, 73, 72);
+    border-radius: 10px;
 }
 
 .img0 {
@@ -49,5 +74,105 @@ h1 {
 
 .img {
     border-radius: 10%;
-    margin-top: 20px;
+    margin-top: 25px;
+    padding-left: 2px;
+    height: 300px;
+    width: 500px;
+    }
+
+    #img-c4 {
+        margin-top: 40px;
+    }
+
+.para-two {
+    text-align: justify;
+    box-shadow: 10px 10px 8px rgb(235, 221, 221);
+    padding: 20px;
+    margin: 20px;
+    color: rgb(75, 73, 72);
+    border-radius: 10px;
+        
 }
+
+h2 {
+    margin: 40px;
+    padding: 10px;
+    color: rgb(66, 60, 3);
+    text-align: center;
+    font-size: 50px;
+}
+
+span {
+    color: rgb(241, 172, 80);
+    display: flex;    
+}
+
+
+#leftbox {
+                 
+                background:rgb(201, 247, 248);
+                width:40%;
+                height:480px;
+                margin: 30px;
+                border-radius: 10px;
+            }
+#middlebox{
+                
+                background:rgb(238, 243, 207);
+                width:40%;
+                height: 480px;
+                margin: 30px;
+                border-radius: 10px;
+            }
+#rightbox{
+                
+                background:rgb(241, 232, 237);
+                width:40%;
+                height:480px;
+                margin: 30px;
+                border-radius: 10px;
+            }
+
+            .img-box {
+                width: 40%;
+                display: block;
+  margin-left: auto;
+  margin-right: auto;
+            }
+
+
+        .box-paragraph {
+            text-align: justify;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: -6px;
+                    }
+
+
+  h3 {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: -20px;
+  }
+
+ #display-span {
+     display: inline-block;
+ }
+
+ h4 {
+     text-align: center;
+     font-size: 30px;
+ }
+
+ #color-h4 {
+     color: lightgreen;
+     margin-top: -2%;
+ }
+
+ footer {
+     background-color: black;
+     color: blanchedalmond;
+     text-align: center;
+     padding: 20px;
+     margin-top: 30px;
+ }
